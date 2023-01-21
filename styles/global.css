@@ -35,15 +35,16 @@ main {
 }
 main .animes {
   height: 230px;
+  background-color: rgba(183, 190, 226, 0.3882352941);
+  padding: 4px;
 }
 main .animes p {
   text-align: center;
   margin: 0;
   font-size: 16px;
+  margin-bottom: 8px;
 }
 main .animes .anime-container {
-  background-color: rgba(183, 190, 226, 0.3882352941);
-  border: 3px solid #d2317e;
   border-radius: 4px;
   height: 85%;
   display: flex;
@@ -63,7 +64,7 @@ main .animes .anime-container div img {
 }
 main .animes .anime-container div span {
   color: #eb378e;
-  text-shadow: 2px 2px 0.5px #000;
+  text-shadow: 1px 1px 1px #000;
   position: absolute;
   z-index: 2;
   width: -webkit-max-content;
@@ -75,11 +76,19 @@ main .animes .anime-container div span {
   transition-property: all;
   transition-timing-function: linear;
 }
+main .animes .anime-container div:hover {
+  display: flex;
+  bottom: 12px;
+}
 main .animes .anime-container div:hover span {
+  position: absolute;
+  bottom: -24px;
+  margin-top: 2px;
+  text-align: center;
   transition-duration: 480ms;
   transition-property: all;
   transition-timing-function: linear;
-  display: block;
+  display: flex;
 }
 
 body {

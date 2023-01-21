@@ -1,0 +1,45 @@
+$text-primary-color: #d2317e;
+
+%hover-header {
+  color: lighten(#d2317e, 15);
+}
+
+header {
+  background-color: #eee;
+  box-shadow: 0px 4px 8px 6px #eee;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  nav {
+    display: flex;
+    justify-content: end;
+    gap: 48px;
+    margin-right: 48px;
+    font-weight: 900;
+    font-size: 16px;
+    align-items: center;
+
+    .star {
+      position: absolute;
+      top: 12px;
+      left: 32px;
+      zoom: 130%;
+      &:hover {
+        @extend %hover-header;
+      }
+    }
+    p:hover {
+      @extend %hover-header;
+    }
+  }
+  h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    &:hover {
+      @extend %hover-header;
+    }
+  }
+}

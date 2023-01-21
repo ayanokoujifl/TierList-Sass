@@ -1,0 +1,41 @@
+header h1:hover, header nav p:hover, header nav .star:hover {
+  color: #e070a5;
+}
+
+header {
+  background-color: #eee;
+  box-shadow: 0px 4px 8px 6px #eee;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  justify-content: end;
+  gap: 48px;
+  margin-right: 48px;
+  font-weight: 900;
+  font-size: 16px;
+  align-items: center;
+}
+header nav .star {
+  position: absolute;
+  top: 12px;
+  left: 32px;
+  zoom: 130%;
+}
+header h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #d2317e;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+}/*# sourceMappingURL=global.css.map */

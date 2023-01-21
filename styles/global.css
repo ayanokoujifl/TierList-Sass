@@ -30,6 +30,58 @@ header h1 {
   margin: 0;
   font-size: 40px;
 }
+main {
+  margin-top: 32px;
+}
+main .animes {
+  height: 230px;
+}
+main .animes p {
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+}
+main .animes .anime-container {
+  background-color: rgba(183, 190, 226, 0.3882352941);
+  border: 3px solid #d2317e;
+  border-radius: 4px;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main .animes .anime-container div {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+main .animes .anime-container div img {
+  height: 100%;
+  position: relative;
+}
+main .animes .anime-container div span {
+  color: #eb378e;
+  text-shadow: 2px 2px 0.5px #000;
+  position: absolute;
+  z-index: 2;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 4px;
+  display: none;
+  transition-duration: 480ms;
+  transition-property: all;
+  transition-timing-function: linear;
+}
+main .animes .anime-container div:hover span {
+  transition-duration: 480ms;
+  transition-property: all;
+  transition-timing-function: linear;
+  display: block;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -38,4 +90,8 @@ body {
 
 * {
   font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
 }/*# sourceMappingURL=global.css.map */

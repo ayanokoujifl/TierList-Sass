@@ -1,4 +1,5 @@
 @use 'header';
+@use 'main';
 
 body {
   margin: 0;
@@ -8,4 +9,8 @@ body {
 
 * {
   font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  min-height: 100vh;
 }

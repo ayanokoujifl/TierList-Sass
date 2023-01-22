@@ -2,21 +2,21 @@ $background-primary: #b7bee263;
 
 main {
   margin-top: 32px;
-  .animes {
+  .types {
     height: 230px;
     background-color: $background-primary;
-    padding: 4px;
+    padding-bottom: 12px;
     p {
       text-align: center;
       margin: 0;
       font-size: 16px;
       margin-bottom: 8px;
     }
-    .anime-container {
+    .type-container {
       border-radius: 4px;
-      height: 85%;
+      height: 80%;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       flex-wrap: wrap;
       align-items: center;
 

@@ -33,36 +33,36 @@ header h1 {
 main {
   margin-top: 32px;
 }
-main .animes {
+main .types {
   height: 230px;
   background-color: rgba(183, 190, 226, 0.3882352941);
-  padding: 4px;
+  padding-bottom: 12px;
 }
-main .animes p {
+main .types p {
   text-align: center;
   margin: 0;
   font-size: 16px;
   margin-bottom: 8px;
 }
-main .animes .anime-container {
+main .types .type-container {
   border-radius: 4px;
-  height: 85%;
+  height: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
-main .animes .anime-container div {
+main .types .type-container div {
   height: 100%;
   display: flex;
   align-items: flex-end;
   position: relative;
 }
-main .animes .anime-container div img {
+main .types .type-container div img {
   height: 100%;
   position: relative;
 }
-main .animes .anime-container div span {
+main .types .type-container div span {
   color: #eb378e;
   text-shadow: 1px 1px 1px #000;
   position: absolute;
@@ -76,11 +76,11 @@ main .animes .anime-container div span {
   transition-property: all;
   transition-timing-function: linear;
 }
-main .animes .anime-container div:hover {
+main .types .type-container div:hover {
   display: flex;
   bottom: 12px;
 }
-main .animes .anime-container div:hover span {
+main .types .type-container div:hover span {
   position: absolute;
   bottom: -24px;
   margin-top: 2px;
